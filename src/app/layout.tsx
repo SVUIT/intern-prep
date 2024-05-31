@@ -3,9 +3,9 @@ import { TopNavBar } from "components/TopNavBar";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "OpenResume - Free Open-source Resume Builder and Parser",
+  title: "SVUIT-InternPrep",
   description:
-    "OpenResume is a free, open-source, and powerful resume builder that allows anyone to create a modern professional resume in 3 simple steps. For those who have an existing resume, OpenResume also provides a resume parser to help test and confirm its ATS readability.",
+    "Một website giúp các bạn sinh viên IT viết và kiểm tra CV, tham khảo các câu hỏi phỏng vấn từ những anh chị đi trước. Qua đó, có thể chuẩn bị tốt hơn cho quá trình đi thực tập của mình",
 };
 
 export default function RootLayout({

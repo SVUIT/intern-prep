@@ -47,7 +47,7 @@ export const initialSettings: Settings = {
   fontSize: DEFAULT_FONT_SIZE,
   documentSize: "Letter",
   formToShow: {
-    workExperiences: true,
+    workExperiences: false,
     educations: true,
     projects: true,
     skills: true,

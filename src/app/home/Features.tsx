@@ -26,10 +26,9 @@ const FEATURES = [
     title: "Open-Source",
     text: (
       <>
-        OpenResume is an open-source project, and its source code can be viewed
-        by anyone on its{" "}
+        Đây là một website mã nguồn mở, được phát triển dựa trên {" "}
         <Link href="https://github.com/xitanggg/open-resume">
-          GitHub repository
+        OpenResume
         </Link>
       </>
     ),
