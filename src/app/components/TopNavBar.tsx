@@ -7,7 +7,7 @@ import { cx } from "lib/cx";
 
 export const TopNavBar = () => {
   const pathName = usePathname();
-  const isHomePage = pathName === "/intern-prep";
+  const isHomePage = pathName === "/";
 
   return (
     <header
@@ -19,6 +19,7 @@ export const TopNavBar = () => {
     >
       <div className="flex h-10 w-full items-center justify-between">
         <Link href="/">
+          <a>
           <span className="sr-only">InternPrep</span>
           <Image
             src={logoSrc}
@@ -26,6 +27,7 @@ export const TopNavBar = () => {
             className="h-8 w-full"
             priority
           />
+          </a>
         </Link>
         <nav
           aria-label="Site Nav Bar"
