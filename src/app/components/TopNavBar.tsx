@@ -18,7 +18,7 @@ export const TopNavBar = () => {
       )}
     >
       <div className="flex h-10 w-full items-center justify-between">
-        <Link href="./intern-prep/">
+        <Link href="../intern-prep/">
           <span className="sr-only">InternPrep</span>
           <Image
             src={logoSrc}
