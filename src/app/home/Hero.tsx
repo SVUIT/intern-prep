@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { FlexboxSpacer } from "components/FlexboxSpacer";
 import { AutoTypingResume } from "home/AutoTypingResume";
