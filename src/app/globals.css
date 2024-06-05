@@ -8,10 +8,10 @@
     @apply bg-primary outline-theme-purple inline-block rounded-full px-6 py-2 font-semibold shadow-sm;
   }
   .text-primary {
-    @apply bg-gradient-to-r from-[color:var(--theme-purple)] to-[color:var(--theme-blue)] bg-clip-text text-transparent !important;
+    @apply bg-gradient-to-r from-[color:var(--theme-purple)] via-[color:var(--theme-blue)] via-[color:var(--theme-light-blue)] to-[color:var(--theme-light-green)] bg-clip-text text-transparent !important;
   }
   .bg-primary {
-    @apply bg-gradient-to-r from-[color:var(--theme-purple)] to-[color:var(--theme-blue)] text-white;
+    @apply bg-gradient-to-r from-[color:var(--theme-purple)] via-[color:var(--theme-blue)] via-[color:var(--theme-light-blue)] to-[color:var(--theme-light-green)] text-white;
   }
   .outline-theme-purple {
     @apply hover:opacity-80 hover:outline-[color:var(--theme-purple)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[color:var(--theme-purple)];
@@ -25,8 +25,10 @@
 }
 
 :root {
-  --theme-purple: #5d52d9;
-  --theme-blue: #4fc5eb;
+  --theme-purple: #7C39F2;
+  --theme-blue: #117FFD;
+  --theme-light-blue: #3FC0EE;
+  --theme-light-green: #43E7BF;
   /* Keep the below variable names in sync with CSS_VARIABLES in globals-css.ts */
   --top-nav-bar-height: 3.5rem;
   --resume-control-bar-height: 3rem;
