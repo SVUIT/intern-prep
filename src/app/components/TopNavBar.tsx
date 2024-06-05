@@ -7,7 +7,7 @@ import { cx } from "lib/cx";
 
 export const TopNavBar = () => {
   const pathName = usePathname();
-  const isHomePage = pathName === "/intern-prep/src/app/home/Hero.tsx";
+  const isHomePage = pathName === "/intern-prep";
 
   return (
     <header
